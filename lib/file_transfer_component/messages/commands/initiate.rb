@@ -6,7 +6,7 @@ module FileTransferComponent
 
         attribute :file_id, String
         attribute :name, String
-        attribute :uri, String
+        attribute :temp_path, String
         attribute :time, String
       end
     end
