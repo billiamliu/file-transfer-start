@@ -20,11 +20,11 @@ module FileTransferComponent
       category :file_transfer
 
       handle Initiate do |initiate|
-        # {
-        #   timestamp: today,
-        #   file_id: 123,
-        #   time_tmp_path: /tmp/foo
-        # }
+        # SCHEMA
+        # initiate.file_id = ID.example
+        # initiate.name = "some_name"
+        # initiate.temp_path = "some_temp_path"
+        # initiate.time = Controls::Time.example
 
         # get file id from file entity
         file_id = initiate.file_id
